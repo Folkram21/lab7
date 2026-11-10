@@ -32,6 +32,7 @@ int main() {
         }
         break;
     case ' ':
+        // проверка ввода пробела
         printf(" = Error (space detected). Please try again without spaces.\n");
     default:
         printf(" = Error (unknown operator). Please try again. Operation list: +, -, * and / (without spaces).\n");
